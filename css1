@@ -1,0 +1,86 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Treinamento para astronautas</title>
+</head>
+<body class="bg">
+    <div class="title">
+    <h1>Treinamento para astronautas</h1>
+    </div>
+    <div class="dayweek">
+        <h2>Dias da semana</h2>
+    </div>
+    <div class="dayweeklist">
+        <ul>
+            <li>Segunda</li>
+            <li>Terça</li>
+            <li>Quarta</li>
+        </ul>
+    </div>
+    <div >
+        <h1 class="titlelist">Segunda</h1>
+    </div>
+    <div class="mondaylist">
+            <ul>
+                <li>Condicionamento cardiorrespiratório</li>
+                <li>Aula de mecânica</li>
+            </ul>
+    </div>
+    <div >
+        <h1 class="titlelist">Terça</h1>
+    </div>
+    <div class="tuesdaylist">
+            <ul>
+                <li>Treinamento em gravidade zero</li>
+                <li id="list2">Aula sobre astronomia</li>
+            </ul>
+    </div>
+    <div >
+        <h1 class="titlelist">Quarta</h1>
+    </div>
+    <div class="wednesdaylist">
+            <ul>
+                <li>Aula sobre coleta de material científico</li>
+                <li id="list2">Aula sobre astronomia</li>
+            </ul>
+    </div>
+</body>
+</html>
+
+CSS:
+
+.title {
+    font-size: 25px;
+    color:#fff;
+}
+.dayweek {
+    color: #f1c40f;
+}
+.dayweeklist {
+    color: #fff;
+}
+.titlelist {
+    border: solid black 2px;
+    background-color: #f1c40f;
+}
+.mondaylist {
+    color: #fff;
+}
+.tuesdaylist {
+    color: #fff;
+    
+}
+.wednesdaylist {
+    color: #fff;
+}
+.bg {
+    background-color: #2c3e50;
+}
+
+#list2 {
+    color:#e74c3c ;
+}
